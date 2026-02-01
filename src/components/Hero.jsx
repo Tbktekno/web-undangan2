@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaEnvelopeOpenText } from 'react-icons/fa';
-import heroImg from '../assets/hero.jpg';
+import heroImg from '../assets/hero.webp';
 import { useState, useEffect } from 'react';
 
 const Hero = ({ onOpen }) => {

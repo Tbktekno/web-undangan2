@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import galeri1 from '../assets/galeri1.jpg';
-import galeri2 from '../assets/galeri2.jpg';
+import galeri1 from '../assets/galeri1.webp';
+import galeri2 from '../assets/galeri2.webp';
 
 
 const Gallery = () => {
@@ -32,7 +32,7 @@ const Gallery = () => {
                             transition={{ delay: idx * 0.1 }}
                             className="rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow bg-gray-100 aspect-[3/4]"
                         >
-                            <img src={src} alt={`Gallery ${idx + 1}`} className="w-full h-full object-cover hover:scale-110 transition-transform duration-700" />
+                            <img src={src} alt={`Gallery ${idx + 1}`} loading="lazy" className="w-full h-full object-cover hover:scale-110 transition-transform duration-700" />
                         </motion.div>
                     ))}
                 </div>

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import bismillahImg from '../assets/bismillah2.png';
-import backgroundImg from '../assets/background.jpg';
-import background2 from '../assets/background2.jpg';
+import bismillahImg from '../assets/bismillah2.webp';
+import backgroundImg from '../assets/background.webp';
+import background2 from '../assets/background2.webp';
 
 const ProfileIntro = () => {
   return (
