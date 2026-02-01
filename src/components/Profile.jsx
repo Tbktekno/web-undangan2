@@ -65,9 +65,9 @@ const CoupleProfile = () => {
           
           {/* Text Info - Right of photo on mobile */}
           <div className="text-left md:text-center flex-1">
-            <h3 className="font-script text-3xl md:text-4xl text-gray-800 mb-1">Elcky</h3>
-            <p className="text-xs md:text-sm text-gold font-medium mb-1 uppercase tracking-wide">Putri Pertama dari</p>
-            <p className="text-xs md:text-sm text-gray-500">Bpk. Damir, S.IP &<br/>Ibu Suarsi</p>
+            <h3 className="font-script text-5xl md:text-4xl text-gray-800 mb-1">Elcky</h3>
+            <p className="font-serif text-lg md:text-base text-gold mb-1 italic">Putri Pertama dari</p>
+            <p className="text-sm md:text-sm text-gray-500">Bpk. Damir, S.IP &<br/>Ibu Suarsi</p>
           </div>
         </motion.div>
 
@@ -90,9 +90,9 @@ const CoupleProfile = () => {
 
           {/* Text Info - Left of photo on mobile */}
           <div className="text-right md:text-center flex-1">
-            <h3 className="font-script text-3xl md:text-4xl text-gray-800 mb-1">Randi</h3>
-            <p className="text-xs md:text-sm text-gold font-medium mb-1 uppercase tracking-wide">Putra Kedua dari</p>
-            <p className="text-xs md:text-sm text-gray-500">Bpk. Udin. S &<br/>Ibu Ningsi</p>
+            <h3 className="font-script text-5xl md:text-4xl text-gray-800 mb-1">Randi</h3>
+            <p className="font-serif text-lg md:text-base text-gold mb-1 italic">Putra Kedua dari</p>
+            <p className="text-sm md:text-sm text-gray-500">Bpk. Udin. S &<br/>Ibu Ningsi</p>
           </div>
         </motion.div>
 
