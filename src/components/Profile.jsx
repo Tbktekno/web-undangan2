@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 import bismillahImg from '../assets/bismillah2.webp';
 import backgroundImg from '../assets/background.webp';
 import background2 from '../assets/background2.webp';
+import randi from '../assets/randi.webp';
+import elcky from '../assets/elcky.webp';
 
 const ProfileIntro = () => {
   return (
@@ -60,7 +62,7 @@ const CoupleProfile = () => {
           {/* Photo Frame */}
           <div className="w-32 h-52 md:w-48 md:h-60 shrink-0 rounded-[100px] overflow-hidden border-2 md:border-4 border-lavender/30 shadow-lg relative group">
              <div className="absolute inset-0 bg-lavender/10 group-hover:bg-transparent transition-all duration-500"></div>
-             <img src="https://images.unsplash.com/photo-1546804792-503b2f2dc8d6?q=80&w=400&auto=format&fit=crop" alt="Elcky" className="w-full h-full object-cover" />
+             <img src={elcky} alt="Elcky" className="w-full h-full object-cover" />
           </div>
           
           {/* Text Info - Right of photo on mobile */}
@@ -85,7 +87,7 @@ const CoupleProfile = () => {
           {/* Photo Frame */}
           <div className="w-32 h-52 md:w-48 md:h-60 shrink-0 rounded-[100px] overflow-hidden border-2 md:border-4 border-lavender/30 shadow-lg relative group">
              <div className="absolute inset-0 bg-lavender/10 group-hover:bg-transparent transition-all duration-500"></div>
-             <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=400&auto=format&fit=crop" alt="Randi" className="w-full h-full object-cover" />
+             <img src={randi} alt="Randi" className="w-full h-full object-cover" />
           </div>
 
           {/* Text Info - Left of photo on mobile */}

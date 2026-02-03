@@ -32,7 +32,7 @@ const Footer = () => {
                             href="https://instagram.com/tinoperdiyansya" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="text-gold mt-1 hover:text-white transition-colors"
+                            className="text-gold hover:text-white transition-colors"
                             aria-label="Instagram Tino Perdiyansya"
                         >
                             <FaInstagram className="w-4 h-4" />

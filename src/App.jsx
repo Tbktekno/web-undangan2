@@ -10,10 +10,12 @@ import Footer from './components/Footer';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaMusic, FaPause } from 'react-icons/fa';
 
+import backsound from './assets/backsound.mp3';
+
 function App() {
   const [showContent, setShowContent] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef(new Audio('https://cdn.pixabay.com/audio/2022/11/22/audio_febc508520.mp3')); // Wedding Cinematic
+  const audioRef = useRef(new Audio(backsound));
 
   useEffect(() => {
     audioRef.current.loop = true;
